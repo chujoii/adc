@@ -1,0 +1,4 @@
+schematics adc.sch
+elements-dir /home/chujoii/project/geda-helper/footprints-geda
+elements-dir /home/chujoii/project/geda-helper/footprints-my
+output-name adc
