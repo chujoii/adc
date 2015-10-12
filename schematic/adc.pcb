@@ -3,9 +3,9 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
 
-PCB["" 1325.00mil 1300.00mil]
+PCB["" 330.6550mm 330.0200mm]
 
-Grid[2500.000000 0.0000 0.0000 1]
+Grid[2500.000000 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[10.00mil 10.00mil 10.00mil 10.00mil 15.00mil 10.00mil]
@@ -1000,6 +1000,48 @@ Element["" "CONNECTOR_FLAT-1-2" "CONN101" "unknown" 475.00mil 150.00mil 0.0000 0
 	ElementLine [-110.00mil -50.00mil -110.00mil 150.00mil 10.00mil]
 
 	)
+
+Element["" "0805xs" "CL101" "1u" 1475.00mil 525.00mil 55.12mil 19.69mil 2 78 ""]
+(
+	Pad[-39.37mil -11.81mil -39.37mil 11.81mil 30.00mil 39.37mil 33.94mil "-" "2" "square"]
+	Pad[39.37mil -11.81mil 39.37mil 11.81mil 30.00mil 39.37mil 33.94mil "+" "1" "square"]
+	ElementLine [-62.99mil -35.43mil 62.99mil -35.43mil 5.91mil]
+	ElementLine [-62.99mil -35.43mil -62.99mil 35.43mil 5.91mil]
+	ElementLine [-62.99mil 35.43mil 51.18mil 35.43mil 5.91mil]
+	ElementLine [62.99mil 23.62mil 51.18mil 35.43mil 5.91mil]
+	ElementLine [62.99mil -35.43mil 62.99mil 23.62mil 5.91mil]
+
+	)
+
+Element["" "0805xs" "C103" "0.1u" 1475.00mil 725.00mil 55.12mil 19.69mil 2 78 ""]
+(
+	Pad[-39.37mil -11.81mil -39.37mil 11.81mil 30.00mil 39.37mil 33.94mil "-" "2" "square"]
+	Pad[39.37mil -11.81mil 39.37mil 11.81mil 30.00mil 39.37mil 33.94mil "+" "1" "square"]
+	ElementLine [-62.99mil -35.43mil 62.99mil -35.43mil 5.91mil]
+	ElementLine [-62.99mil -35.43mil -62.99mil 35.43mil 5.91mil]
+	ElementLine [-62.99mil 35.43mil 51.18mil 35.43mil 5.91mil]
+	ElementLine [62.99mil 23.62mil 51.18mil 35.43mil 5.91mil]
+	ElementLine [62.99mil -35.43mil 62.99mil 23.62mil 5.91mil]
+
+	)
+
+Element["" "0805xs" "Rt101" "6.8k" 1450.00mil 1250.00mil -55.12mil -19.69mil 0 78 ""]
+(
+	Pad[39.37mil -11.81mil 39.37mil 11.81mil 30.00mil 39.37mil 33.94mil "2" "2" "square"]
+	Pad[-39.37mil -11.81mil -39.37mil 11.81mil 30.00mil 39.37mil 33.94mil "1" "1" "square"]
+	ElementLine [62.99mil 35.43mil -62.99mil 35.43mil 5.91mil]
+	ElementLine [62.99mil -35.43mil 62.99mil 35.43mil 5.91mil]
+	ElementLine [-51.18mil -35.43mil 62.99mil -35.43mil 5.91mil]
+	ElementLine [-62.99mil -23.62mil -51.18mil -35.43mil 5.91mil]
+	ElementLine [-62.99mil 35.43mil -62.99mil -23.62mil 5.91mil]
+
+	)
+Rat[24.4000mm 18.1150mm 0 36.4650mm 18.1150mm 0  ""]
+Rat[38.4650mm 18.1150mm 0 1300.00mil 19.7800mm 0  ""]
+Rat[36.4650mm 13.6350mm 0 15.5100mm 18.1150mm 0  ""]
+Rat[38.4650mm 13.6350mm 0 900.00mil 825.00mil 0  ""]
+Rat[1275.00mil 1200.00mil 0 37.8300mm 31.4500mm 0  ""]
+Rat[1230.00mil 825.00mil 0 35.8300mm 31.4500mm 0  ""]
 Layer(1 "component")
 (
 	Line[17.4150mm 1025.00mil 675.00mil 26.3050mm 10.00mil 20.00mil "clearline"]
@@ -1084,13 +1126,13 @@ Layer(1 "component")
 	Line[250.00mil 425.00mil 50.00mil 425.00mil 40.00mil 20.00mil ""]
 	Text[100.00mil 325.00mil 0 120 "Offset adjust" "clearline"]
 	Text[50.00mil 475.00mil 0 120 "+Vs" "clearline"]
-	Text[125.00mil 225.00mil 0 120 "Vs" "clearline"]
+	Text[100.00mil 125.00mil 0 120 "Vs" "clearline"]
 	Text[25.00mil 675.00mil 0 120 "Gain adjust" "clearline"]
 	Text[975.00mil 1200.00mil 0 120 "2015" "clearline"]
 	Text[950.00mil 0.0000 0 120 "ADC" "clearline"]
 	Text[750.00mil 1175.00mil 0 120 "cuhjoii" "clearline"]
 	Text[175.00mil 0.0000 0 120 "Voltage to Frequency" "clearline"]
-	Text[100.00mil 125.00mil 0 120 "GND" "clearline"]
+	Text[100.00mil 225.00mil 0 120 "GND" "clearline"]
 	Text[50.00mil 575.00mil 0 120 "-Vs" "clearline"]
 	Text[50.00mil 975.00mil 0 120 "GND" "clearline"]
 	Text[50.00mil 1175.00mil 0 120 "Vlogic" "clearline"]
