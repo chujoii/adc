@@ -47,8 +47,7 @@ printed circuit board pcb adc voltage frequency converter lm331
 printed circuit board for lm331
 
 * Usage:
-use it
-
+f = (* (/ 5.0 2.09) (/ (+ 12.0e3 (/ 5.0e3 2.0)) 100.0e3) (/ 1 (* 6.8e3 0.01e-6)))
 * History:
 Project created at 2015-10(Oct)-10
 
